@@ -91,8 +91,9 @@ You can run scenarios using the following command:
  To run the simulation scenarios with visualizer:
  
     ./waf --run=<scenario_name> --vis
-## References
-
+    
+References
+=========
 We ask academic works, which built on this code, to reference the following paper:
 
 [Enabling Virtual Network Functions in Named Data Networking](https://ieeexplore.ieee.org/document/9484495)
