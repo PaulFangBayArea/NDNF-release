@@ -4,30 +4,46 @@ Virtual network functions have been explored extensively for connection-oriented
 
 Prerequisites
 =============
+1. Core dependencies
+python >= 3.5
+libsqlite3
+pkg-config
+openssl
+Boost libraries >= 1.54
 
-Custom version of NS-3 and specified version of ndnSIM needs to be installed.
+** macOS with HomeBrew:
+brew install boost pkg-config openssl libxml2
+export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"   # put this line in ~/.bashrc or manually type before ./waf configure
 
-The code should also work with the latest version of ndnSIM, but it is not guaranteed.
+2. Dependencies for NS-3 Python bindings
 
-    mkdir ns-dev
-    cd ns-dev
+** macOS with HomeBrew
+brew install cairo goocanvas gtk+3 graphviz gobject-introspection castxml
 
-    git clone git://github.com/cawka/ns-3-dev-ndnSIM.git ns-3
-    git clone git://github.com/cawka/pybindgen.git pybindgen
-    git clone git://github.com/NDN-Routing/ndnSIM.git ns-3/src/ndnSIM
-
-    git clone git://github.com/cawka/ndnSIM-scenario-template.git my-simulations
-
-    cd ns-3
-    ./waf configure -d optimized
-    ./waf
-    sudo ./waf install
-
-    cd ../simulations
-
-After which you can proceed to compile and run the code
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/libffi/lib/pkgconfig"  # this needed only for running the next line
+pip install pygraphviz pycairo PyGObject pygccxml
 
 For more information how to install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
+
+
+Install ndnSIM
+==============
+ndnSIM package consists of three pieces:
+
+* a custom branch of NS-3 that contains a few useful patches
+* a customized python binding generation library (necessary if you want to use NS-3’s python bindings and/or visualizer module)
+* the source code of ndnSIM module
+* modified source code of ndn-cxx library and NDN Forwarding Daemon (NFD), attached to ndnSIM git repository as git submodules
+
+The following commands download all pieces from GitHub repositories:
+
+mkdir ndnSIM
+cd ndnSIM
+git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3
+git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen
+git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM
+
+
 
 Compiling
 =========
