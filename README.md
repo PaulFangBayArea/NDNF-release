@@ -97,4 +97,5 @@ References
 We ask academic works, which built on this code, to reference the following paper:
 
 [Enabling Virtual Network Functions in Named Data Networking](https://ieeexplore.ieee.org/document/9484495)
+
 Puming Fang and Tilman Wolf. In Proc. of the Global Internet Symposium (GIS) in conjunction with the IEEE Conference on Computer Communications (INFOCOM), May. 2021.
