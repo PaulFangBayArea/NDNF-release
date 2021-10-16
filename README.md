@@ -1,5 +1,5 @@
 # Enabling Virtual Network Functions in Named Data Networking
-Virtual network functions have been explored extensively for connection-oriented networks, but rarely for content-centric/information-centric networks. Our work is the first effort to enable virtual network functions in Named Data Networking. A variety of test scenarios that have been evaluated on the widely used ndnSIM simulator. We show that Named Data Network Functions can be implemented effectively and can be invoked by end systems or intermediate nodes to transparently implement network policies.
+Virtual network functions, which are placed logically in the path of a network connection, implement important processing steps, such as content inspection, load balancing, etc. While these types of operations have been explored extensively for connection-oriented networks, but rarely for content-centric/information-centric networks. Our work is the first effort to enable virtual network functions in Named Data Networking. A variety of test scenarios that have been evaluated on the widely used ndnSIM simulator. We show that Named Data Network Functions can be implemented effectively and can be invoked by end systems or intermediate nodes to transparently implement network policies.
 
 
 Prerequisites
