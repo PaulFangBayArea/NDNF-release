@@ -1,5 +1,5 @@
 # Enabling Virtual Network Functions in Named Data Networking
-Virtual network functions have been explored extensively for connection-oriented networks, but rarely for content-centric/information-centric networks. Our work is the first effort to enable virtual network functions in Named Data Networking.
+Virtual network functions have been explored extensively for connection-oriented networks, but rarely for content-centric/information-centric networks. Our work is the first effort to enable virtual network functions in Named Data Networking. A variety of test scenarios that have been evaluated on the widely used ndnSIM simulator. We show that Named Data Network Functions can be implemented effectively and can be invoked by end systems or intermediate nodes to transparently implement network policies.
 
 
 Prerequisites
@@ -15,12 +15,14 @@ Prerequisites
     openssl
 
     Boost libraries >= 1.54
-    
-* macOS with HomeBrew:
 
-  
+
+Following are the detailed steps for macOS to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites.
+
+* macOS with HomeBrew:
+   
     brew install boost pkg-config openssl libxml2
-    
+  
     export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"  
 
 
@@ -64,9 +66,28 @@ Simulate NDNF Scenarios using ndnSIM
 
 You can run scenarios using the following command:
 
-    ./waf --run <scenario_name>
+    ./waf --run=<scenario_name>
 
-
+ To run End-System NDNF scenario, you can run the following command:
+ 
+    ./waf --run=ndn-test-singleconsumer
+    
+ To run EdgeRouter NDNF scenario, you can run the following command: 
+   
+    ./waf --run=ndn-test-edgerouter
+    
+ To run AnyRouter NDNF scenario, you can run the following command: 
+   
+    ./waf --run=ndn-test-anyrouter
+    
+ To run End-System NDNF scenario with multiple NFV nodes, you can run the following command:   
+ 
+    ./waf --run=ndn-test-multinfv
+    
+ To run the simulation scenarios with the logging module of NS-3 enabled (note that this will work only when NS-3 is compiled in debug mode): 
+  
+    NS_LOG=ndn.Producer:ndn.Consumer ./waf --run=<scenario_name>
+  
 
 ## References
 
