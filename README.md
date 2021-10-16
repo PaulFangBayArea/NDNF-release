@@ -72,11 +72,11 @@ You can run scenarios using the following command:
  
     ./waf --run=ndn-test-singleconsumer
     
- To run EdgeRouter NDNF scenario, you can run the following command: 
+ To run Edge-Router NDNF scenario, you can run the following command: 
    
     ./waf --run=ndn-test-edgerouter
     
- To run AnyRouter NDNF scenario, you can run the following command: 
+ To run Any-Router NDNF scenario, you can run the following command: 
    
     ./waf --run=ndn-test-anyrouter
     
