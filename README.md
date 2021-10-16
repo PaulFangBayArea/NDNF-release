@@ -48,7 +48,7 @@ ndnSIM package consists of three pieces:
 * the source code of ndnSIM module
 * modified source code of ndn-cxx library and NDN Forwarding Daemon (NFD), attached to ndnSIM git repository as git submodules
 
-For more information how to install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
+To install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
 
 
 Compile
