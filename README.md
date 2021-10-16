@@ -68,19 +68,19 @@ You can run scenarios using the following command:
 
     ./waf --run=<scenario_name>
 
- To run End-System NDNF scenario, you can run the following command:
+ To run End-System NDNF scenario, you can use the following command:
  
     ./waf --run=ndn-test-singleconsumer
     
- To run Edge-Router NDNF scenario, you can run the following command: 
+ To run Edge-Router NDNF scenario, you can use the following command: 
    
     ./waf --run=ndn-test-edgerouter
     
- To run Any-Router NDNF scenario, you can run the following command: 
+ To run Any-Router NDNF scenario, you can use the following command: 
    
     ./waf --run=ndn-test-anyrouter
     
- To run End-System NDNF scenario with multiple NFV nodes, you can run the following command:   
+ To run End-System NDNF scenario with multiple NFV nodes, you can use the following command:   
  
     ./waf --run=ndn-test-multinfv
     
