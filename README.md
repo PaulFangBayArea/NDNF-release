@@ -19,16 +19,14 @@ Prerequisites
 
 Following are the detailed steps for macOS to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites.
 
-* macOS with HomeBrew:
-   
     brew install boost pkg-config openssl libxml2
-  
+   
     export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"  
 
 
 2. Dependencies for NS-3 Python bindings
 
-* macOS with HomeBrew
+If you are planning to use NS-3 python bindings, a number of additional dependencies should be installed. For example, in order to run visualizer module, the       following should be installed:
 
     brew install cairo goocanvas gtk+3 graphviz gobject-introspection castxml
 
