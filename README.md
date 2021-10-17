@@ -5,7 +5,7 @@ This is the repo for running Named Data Network Function( NDNF) Scenarios using 
 
 To install ns-3 and ndnSIM, please refer to https://ndnsim.net.
 
-You can find the application files are in  `apps` and the NDNF test scenarios in `examples`.
+You can find the application files in  `apps` and the NDNF test scenarios in `examples`.
 
 Feel free to contact pfang@umass.edu if you have any questions.
 
