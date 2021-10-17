@@ -3,9 +3,11 @@ Named Data Network Function Scenarios
 
 This is the repo for running Named Data Network Function Scenarios using ndnSIM.
 
+To install ns-3 and ndnSIM, please refer to https://ndnsim.net.
+
 Our application files are in  `apps`.
 
-More documentation will be added to this repo. Feel free to contact pfang@umass.edu if you have any questions.
+Feel free to contact pfang@umass.edu if you have any questions.
 
 
 References
