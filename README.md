@@ -54,7 +54,7 @@ To install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
 Compile
 =========
 
-ndnSIM uses a standard NS-3 compilation procedure. Normally the following commands should be sufficient to configure and build ndnSIM with python bindings enabled:
+After the installation of ndnSIM, you can run the following commands to configure and build ndnSIM with python bindings enabled:
 
     cd ndnSIM/ns-3
     ./waf configure --enable-examples
