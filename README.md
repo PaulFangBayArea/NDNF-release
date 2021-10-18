@@ -4,7 +4,7 @@ Named Data Network Function Scenarios
 This is the repo for running Named Data Network Function( NDNF) Scenarios using ndnSIM.
 
 
-Feel free to contact pfang@umass.edu if you have any questions.
+
 
 Prerequisites
 =============
