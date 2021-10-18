@@ -21,22 +21,20 @@ Prerequisites
     Boost libraries >= 1.54
 
 
-The following is to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites for MacOS.
+The following is to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites for Ubuntu Linux 18.04.
 
-    brew install boost pkg-config openssl libxml2
-
-    export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"  
+    sudo apt install build-essential libsqlite3-dev libboost-all-dev libssl-dev git python-setuptools castxml
+ 
 
 
 2. Dependencies for NS-3 Python bindings
 
 To run visualizer module, you need to install additional dependencies:
 
-    brew install cairo goocanvas gtk+3 graphviz gobject-introspection castxml
+   
+    sudo apt install python-dev python-pygraphviz python-kiwi python-gnome2 ipython libcairo2-dev python3-gi libgirepository1.0-dev python-gi python-gi-cairo gir1.2-gtk-3.0 gir1.2-goocanvas-2.0 python-pip
+    sudo pip install pygraphviz pycairo PyGObject pygccxml
 
-    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/libffi/lib/pkgconfig"  
-
-    pip install pygraphviz pycairo PyGObject pygccxml
 
 
 
