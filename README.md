@@ -29,7 +29,7 @@ The following is to install the compiler, all necessary development tools and li
 
 2. Dependencies for NS-3 Python bindings
 
-To run visualizer module, you need to install additional dependencies:
+To run visualizer module, you need to install additional dependencies.
 
    
     sudo apt install python-dev python-pygraphviz python-kiwi python-gnome2 ipython libcairo2-dev python3-gi libgirepository1.0-dev python-gi python-gi-cairo gir1.2-gtk-3.0 gir1.2-goocanvas-2.0 python-pip
