@@ -44,7 +44,7 @@ If you are planning to use NS-3 python bindings, a number of additional dependen
 Install ndnSIM
 ==============
 
-To install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
+To install NS-3 and ndnSIM, please refer to http://ndnsim.net.
 
 
 
