@@ -21,7 +21,7 @@ Prerequisites
     Boost libraries >= 1.54
 
 
-Following are the detailed steps for macOS to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites.
+The following is to install the compiler, all necessary development tools and libraries, and ndn-cxx prerequisites for MacOS.
 
     brew install boost pkg-config openssl libxml2
 
@@ -30,7 +30,7 @@ Following are the detailed steps for macOS to install the compiler, all necessar
 
 2. Dependencies for NS-3 Python bindings
 
-If you are planning to use NS-3 python bindings, a number of additional dependencies should be installed. For example, in order to run visualizer module, the       following should be installed:
+To run visualizer module, you need to install additional dependencies:
 
     brew install cairo goocanvas gtk+3 graphviz gobject-introspection castxml
 
