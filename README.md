@@ -50,7 +50,7 @@ Simulate NDNF Scenarios
 ===================================
 
 
-You can download the application files in  `apps` and the NDNF test scenarios in `examples`.
+You can download the application files in  `apps` and the NDNF test scenarios in `examples` listed above, and then place the files in the `apps` and `examples` folder in the same directory as ndnSIM.
 
 
 To run End-System NDNF scenario, you can use the following command:
