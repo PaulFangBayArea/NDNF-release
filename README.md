@@ -64,6 +64,10 @@ To run Edge-Router NDNF scenario, you can use the following command:
 To run Any-Router NDNF scenario, you can use the following command: 
 
     ./waf --run=ndn-test-anyrouter
+    
+To run End-System NDNF scenario with multiple concurrent requests, you can use the following command:   
+
+    ./waf --run=ndn-test-multiconsumer
 
 To run End-System NDNF scenario with multiple NFV nodes, you can use the following command:   
 
