@@ -77,9 +77,6 @@ To run the simulation scenarios with the logging module of NS-3 enabled:
 
     NS_LOG=ndn.Producer:ndn.Consumer ./waf --run=<scenario_name>
 
-To run the simulation scenarios with visualizer:
-
-    ./waf --run=<scenario_name> --vis
 
 References
 =========
