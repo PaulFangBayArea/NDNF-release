@@ -50,7 +50,7 @@ Simulate NDNF Scenarios
 ===================================
 
 
-You can download the application files in  `apps`, the NDNF test scenarios in `examples`, and topology files in `topologies` as listed above, and then place the files in the `apps` and `examples` folder in the following directories respectively: '/ndnSIM/ns-3/src/ndnSIM/apps';  '/ndnSIM/ns-3/src/ndnSIM/examples'; '/ndnSIM/ns-3/src/ndnSIM/examples/topologies'.
+You can download the application files in  `apps`, the NDNF test scenarios in `examples`, and topology files in `topologies` as listed above, and then place the files in the `apps` and `examples` folder in the following directories respectively: /ndnSIM/ns-3/src/ndnSIM/apps;  /ndnSIM/ns-3/src/ndnSIM/examples; /ndnSIM/ns-3/src/ndnSIM/examples/topologies.
 
 
 To run End-System NDNF scenario, you can use the following command:
